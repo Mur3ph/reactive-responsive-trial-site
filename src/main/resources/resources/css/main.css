@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+body{
+ 	padding-top: 60px;
+ 	padding-bottom: 40px;
+}
+ 		
+ #test1{
+	width: 100%;
+}
+
+#test2{
+	display: table;
+	margin: 0 auto;
+}

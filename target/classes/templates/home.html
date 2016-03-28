@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+    
+    <!-- JQuery Google CDN https://developers.google.com/speed/libraries/#jquery -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    	
+    	<script>
+    	
+    		$(function(){
+    			$("head").load("header");
+    			$("#nav-bar").load("nav-bar-top");
+    		});
+    	
+    	</script>
+    	
+        <title>Spring Security Example</title>
+    </head>
+    <body background="../resources/images/home.jpg">
+    
+    	<div id="nav-bar"></div>
+    	
+    	<!-- <img src="../resources/images/home.jpg" th:src="@{resources/images/home.jpg}" height="42" width="42"/> -->
+	    
+	    <div class="text-container">
+
+	      <div class="starter-template">
+	      
+	        <h1>Welcome!</h1>
+	       	<p class="lead">Click <a th:href="@{/hello}">here</a> to see a greeting.</p>
+	       	
+	      </div>
+	
+	    </div><!-- /.container -->
+    
+    </body>
+</html>

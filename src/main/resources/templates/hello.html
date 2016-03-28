@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+    	
+    	<!-- JQuery Google CDN https://developers.google.com/speed/libraries/#jquery -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    	
+    	
+    	<script>
+    	
+    		$(function(){
+    			$("head").load("header");
+    			$("#nav-bar").load("nav-bar-top");
+    		});
+    	
+    	</script>
+
+    </head>
+    <body>
+    	
+    	<div id="nav-bar"></div>
+    
+        <h1 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]]!</h1>
+        <h1 th:inline="text">Hello [[${#httpServletRequest.remotePassword}]]!</h1>
+        <form th:action="@{/logout}" method="post">
+            <input type="submit" value="Sign Out"/>
+        </form>
+    </body>
+</html>
