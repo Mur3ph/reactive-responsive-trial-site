@@ -29,9 +29,9 @@ public class PersonEntity implements Serializable{
   
   private String place;
   
-  protected PersonEntity(){
-    
-  }
+  public PersonEntity(){}
+  
+  //protected PersonEntity(){}
   
   public PersonEntity(String firstName, String lastName, int age, String place){
     this.firstName = firstName;
