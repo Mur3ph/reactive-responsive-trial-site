@@ -13,13 +13,16 @@
 	<li>Spring Boot</li>
 	<li>Spring data, JPA, Hibernate (Postgres)</li>
 	<li>Spring Security</li>
+	<li>Java</li>
+	<li>SQL</li>
+	<li>JavaScript</li>
 	<li>Bootstrap</li>
 	<li>HTML/CSS</li>
 </ol>
 
 ###### Technologies I intend to use (TODO): 
 <ol>
-	<li>Spring data (Oracle, MSSQL, NoSQL(Mongodb, Neo4j))</li>
+	<li>Spring data (NoSQL(Mongodb, Neo4j))</li>
 	<li>JOOQ</li>
 	<li>D3.js, Graphs and Statistics</li>
 	<li>AI</li>
