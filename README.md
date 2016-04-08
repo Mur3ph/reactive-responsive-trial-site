@@ -18,6 +18,9 @@
 	<li>JavaScript</li>
 	<li>Bootstrap</li>
 	<li>HTML/CSS</li>
+	<li>Maven</li>
+	<li>Embedded Tomcat Server with Spring boot</li>
+	<li>Eclipse</li>
 </ol>
 
 ###### Technologies I intend to use (TODO): 
