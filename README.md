@@ -1,10 +1,27 @@
-# Sping boot responsive web application
+## Sping boot responsive web application
 
-Has a Login, and home page using Spring Security
+###### Functionality Implemented:
+	<ol>
+		<li>Home page</li>
+		<li>Login page</li>
+		<li>Registry page</li>
+		<li>Various pages after security check</li>
+	</ol>
 
-TODO - Technologies I inrend to use: 
-	1. Spring data (Oracle, Postgres, NoSQL(Mongodb, Neo4j))
-	2. JOOQ
-	3. D3.js
-	4. AI
+###### Technologies Used:
+ <ol>
+	<li>Spring Boot</li>
+	<li>Spring data, JPA, Hibernate (Postgres)</li>
+	<li>Spring Security</li>
+	<li>Bootstrap</li>
+	<li>HTML/CSS</li>
+</ol>
+
+###### Technologies I intend to use (TODO): 
+<ol>
+	<li>Spring data (Oracle, MSSQL, NoSQL(Mongodb, Neo4j))</li>
+	<li>JOOQ</li>
+	<li>D3.js, Graphs and Statistics</li>
+	<li>AI</li>
+</ol>
 	
