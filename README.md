@@ -1,12 +1,12 @@
 ## Sping boot responsive web application
 
 ###### Functionality Implemented:
-	<ol>
-		<li>Home page</li>
-		<li>Login page</li>
-		<li>Registry page</li>
-		<li>Various pages after security check</li>
-	</ol>
+<ol>
+	<li>Home page</li>
+	<li>Login page</li>
+	<li>Registry page</li>
+	<li>Various pages after security check</li>
+</ol>
 
 ###### Technologies Used:
  <ol>
