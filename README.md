@@ -27,7 +27,10 @@
 <ol>
 	<li>Spring data (NoSQL(e.g. Neo4j))</li>
 	<li>JOOQ</li>
-	<li>D3.js, Graphs and Statistics</li>
+	<li>D3.js</li> 
+	<li>UI Interaction</li> 
+	<li>Graphs </li>
+	<li>Statistics</li>
 	<li>AI</li>
 </ol>
 	
