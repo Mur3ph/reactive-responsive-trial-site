@@ -1,17 +1,82 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
-<head> 
-    <title>Person</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
-<body>
-	<h1>Form</h1>
-    <form action="#" th:action="@{/person}" th:object="${person}" method="post">
-    	<p>First name: <input type="text" th:field="*{firstName}" /></p>
-        <p>Last name: <input type="text" th:field="*{lastName}" /></p>
-        <p>Age: <input type="text" th:field="*{age}" /></p>
-        <p>Place: <input type="text" th:field="*{place}" /></p>
-        <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
-    </form>
-</body>
+	<head> 
+	    <title>Person</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	    
+	    <!-- JQuery Google CDN https://developers.google.com/speed/libraries/#jquery -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    	
+    	<script>
+    	
+    		$(function(){
+    			$("head").load("header");
+    			$("#nav-bar").load("nav-bar-top");
+    		});
+    	
+    	</script>
+    
+	</head>
+	<body>
+		<div id="nav-bar"></div>
+		
+		<div class="container">
+		  <div class="row">
+		  	<div class="col-md-6">
+		  	
+			    <form class="form-horizontal" action="#" th:action="@{/person}" th:object="${person}" method="post">
+			    
+			    	<fieldset>
+			    		<div id="legend">
+			              <legend class="">Register Person</legend>
+			            </div>
+			            
+			            <div class="control-group">
+				    		<label class="control-label" for="firstname">First name:</label> 
+				    		<div class="controls">
+				    			<input class="form-control input-lg" type="text" th:field="*{firstName}" placeholder="First Name"/>
+				    		</div>
+				    	</div>
+				    	
+				    	<div class="control-group">
+				        	<label class="control-label" for="lastname">Last name:</label>  
+				        	<div class="controls">
+				        		<input class="form-control input-lg" type="text" th:field="*{lastName}" placeholder="Surname"/>
+				        	</div>
+				        </div>
+				        
+				        <div class="control-group">
+				        	<label class="control-label" for="age">Age:</label>
+				        	<div class="controls">
+				        		<input class="form-control input-lg" type="text" th:field="*{age}" placeholder="Age"/>
+				        	</div>
+				        </div>
+				        
+				        <div class="control-group">
+				        	<label class="control-label" for="place">Place:</label> 
+				        	<div class="controls">
+				        		<input class="form-control input-lg" type="text" th:field="*{place}" placeholder="Location"/>
+				        	</div>
+				        </div>
+				        
+				        <div class="control-group">
+				        
+				        	<div class="controls">
+				        		<input class="btn btn-success" type="submit" value="Submit" /> 
+				        	</div>
+				        	
+				        	<div class="controls">
+				        		<input class="btn btn-danger" type="reset" value="Reset" />
+				        	</div>
+				        </div>
+				        
+			        </fieldset>
+			        
+			    </form>
+	    
+	      </div> 
+		  </div>
+		</div>
+		   
+	</body>
 </html>
