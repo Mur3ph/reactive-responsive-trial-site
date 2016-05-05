@@ -6,12 +6,14 @@
 	<li>Login page</li>
 	<li>Registry page</li>
 	<li>Various pages after security check</li>
+	<li>SQL Schema</li>
 </ol>
 
 ###### Technologies Used:
  <ol>
 	<li>Spring Boot</li>
 	<li>Spring data, JPA, Hibernate (Postgres)</li>
+	<li>PostgresSQL Schema</li>
 	<li>Spring Security</li>
 	<li>Java</li>
 	<li>SQL</li>
@@ -25,12 +27,16 @@
 
 ###### Technologies I intend to use (TODO): 
 <ol>
-	<li>Spring data (NoSQL(e.g. Neo4j))</li>
-	<li>JOOQ</li>
-	<li>D3.js</li> 
-	<li>UI Interaction</li> 
-	<li>Graphs </li>
-	<li>Statistics</li>
 	<li>AI</li>
+	<li>AngularJS</li> 
+	<li>D3.js</li> 
+	<li>Graphs </li>
+	<li>JOOQ</li>
+	<li>Neo4j Cipher</li>
+	<li>Neo4j Database</li>
+	<li>PostgresSQL Schema</li>
+	<li>Spring data (NoSQL(e.g. Neo4j))</li>
+	<li>Statistics</li>
+	<li>UI Interaction</li> 
 </ol>
 	
