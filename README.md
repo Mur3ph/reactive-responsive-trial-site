@@ -38,6 +38,7 @@
 	<li>PostgresSQL Database design, development and Schema</li>
 	<li>Spring data (NoSQL(e.g. Neo4j))</li>
 	<li>Statistics</li>
+	<li>Testing techiques - TDD, Unit, Mocking, Cross browser, Debugging</li>
 	<li>UI Interaction</li> 
 </ol>
 	
