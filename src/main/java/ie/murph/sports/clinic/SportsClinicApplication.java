@@ -6,11 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import ie.murph.sports.clinic.domain.Person;
 import ie.murph.sports.clinic.entity.PersonEntity;
 import ie.murph.sports.clinic.repository.PersonRepository;
-import ie.murph.sports.clinic.service.PersonService;
 
 @SpringBootApplication
 public class SportsClinicApplication implements CommandLineRunner{
