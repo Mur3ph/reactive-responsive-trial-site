@@ -19,7 +19,7 @@ public class PersonService {
     
   public int addPerson(Person person){
     String sql = "INSERT INTO person(first_name, last_name, age, place) VALUES(?,?,?,?)";
-    return jdbcTemplate.update(sql, person.getFirstName(), person.getLastName(), person.getAge(), person.getPlace());    
+    return jdbcTemplate.update(sql, person.getFirstName(), person.getLastName(), person.getAge());    
   }
   
   public List<Person> getAllPerson(){
@@ -30,7 +30,6 @@ public class PersonService {
         p.setAge(rs.getInt("age"));
         p.setFirstName(rs.getString("first_name"));
         p.setLastName(rs.getString("last_name"));
-        p.setPlace(rs.getString("place"));
         return p;
       }
       

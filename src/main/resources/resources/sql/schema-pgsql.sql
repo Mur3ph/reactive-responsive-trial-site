@@ -14,12 +14,12 @@ DROP TABLE care_site;
 
 CREATE TABLE person(
   	person_id   		SERIAL PRIMARY KEY NOT NULL,
-  	location_id   		SERIAL REFERENCES location(location_id)
-  	care_site_id   		SERIAL REFERENCES care_site(care_site_id)
+  	--location_id   		SERIAL REFERENCES location(location_id)
+  	--care_site_id   		SERIAL REFERENCES care_site(care_site_id)
 	first_name 			VARCHAR(150) NOT NULL,
 	last_name 			VARCHAR(150) NOT NULL,
-	age					INTEGER NOT NULL (CHECK age > 17),
-	date_of_birth		DATE,
+	age					INTEGER NOT NULL,-- (CHECK age > 17),
+	--date_of_birth		DATE,
 	email				VARCHAR(150) NOT NULL UNIQUE,
 	password			VARCHAR(150) NOT NULL
 );

@@ -17,7 +17,7 @@ public class PersonEntity implements Serializable{
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private long id;
+  private long person_id;
   
   @Column(name="first_name", nullable = false)
   private String firstName;
@@ -27,25 +27,28 @@ public class PersonEntity implements Serializable{
   
   private int age;
   
-  private String place;
+  private String email;
+  
+  private String password;
   
   public PersonEntity(){}
   
   //protected PersonEntity(){}
   
-  public PersonEntity(String firstName, String lastName, int age, String place){
+  public PersonEntity(String firstName, String lastName, int age, String email, String password){
     this.firstName = firstName;
     this.lastName = lastName;
     this.age = age;
-    this.place = place;
+    this.email = email;
+    this.password = password;
   }
 
   public long getId() {
-    return id;
+    return person_id;
   }
 
   public void setId(long id) {
-    this.id = id;
+    this.person_id = id;
   }
 
   public String getFirstName() {
@@ -72,20 +75,28 @@ public class PersonEntity implements Serializable{
     this.age = age;
   }
 
-  public String getPlace() {
-    return place;
+  public String getEmail() {
+    return email;
   }
 
-  public void setPlace(String place) {
-    this.place = place;
+  public void setEmail(String email) {
+    this.email = email;
   }
   
-  public String toString(){
+  public String getPassword() {
+	return password;
+}
+
+public void setPassword(String password) {
+	this.password = password;
+}
+
+public String toString(){
 	    StringBuilder builder = new StringBuilder();
 	    builder.append(this.getId()).append(", ")
 	      .append(this.getFirstName()).append(", ")
 	      .append(this.getLastName()).append(", ")
-	      .append(this.getPlace()).append(", ")
+	      .append(this.getEmail()).append(", ")
 	      .append(this.getAge());
 	    
 	    return builder.toString();

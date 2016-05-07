@@ -7,8 +7,6 @@ public class Person {
 	private String firstName;
 	private String lastName;
 	private int age;
-	private String place;
-	private Date dateOfBirth;
 	private String email;
 	private String password;
 
@@ -36,22 +34,6 @@ public class Person {
 		this.age = age;
 	}
 
-	public String getPlace() {
-		return place;
-	}
-
-	public void setPlace(String place) {
-		this.place = place;
-	}
-
-	public Date getDateOfBirth() {
-		return dateOfBirth;
-	}
-
-	public void setDateOfBirth(Date dateOfBirth) {
-		this.dateOfBirth = dateOfBirth;
-	}
-
 	public String getEmail() {
 		return email;
 	}
@@ -70,7 +52,7 @@ public class Person {
 
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append(this.getFirstName()).append(", ").append(this.getLastName()).append(", ").append(this.getPlace())
+		builder.append(this.getFirstName()).append(", ").append(this.getLastName()).append(", ")
 				.append(", ").append(this.getAge());
 
 		return builder.toString();
@@ -78,8 +60,8 @@ public class Person {
 
 	//@Override
 	public String toString1() {
-		return "Person [firstName=" + firstName + ", lastName=" + lastName + ", age=" + age + ", place=" + place
-				+ ", dateOfBirth=" + dateOfBirth + ", email=" + email + ", password=" + password + "]";
+		return "Person [firstName=" + firstName + ", lastName=" + lastName + ", age=" + age 
+				 + ", email=" + email + ", password=" + password + "]";
 	}
 
 	
