@@ -46,13 +46,6 @@
 				        </div>
 				        
 				        <div class="control-group">
-				        	<label class="control-label" for="age">Age:</label>
-				        	<div class="controls">
-				        		<input class="form-control input-lg" type="text" th:field="*{age}" placeholder="Age"/>
-				        	</div>
-				        </div>
-				        
-				        <div class="control-group">
 				        	<label class="control-label" for="email">Email:</label> 
 				        	<div class="controls">
 				        		<input class="form-control input-lg" type="text" th:field="*{email}" placeholder="Email"/>
@@ -67,14 +60,24 @@
 				        </div>
 				        
 				        <div class="control-group">
-				        
+				        	<label class="control-label" for="password">Password (Confirm):</label> 
 				        	<div class="controls">
-				        		<input class="btn btn-success" type="submit" value="Submit" /> 
+				        		<input class="form-control input-lg" type="password" th:field="*{password}" placeholder="Confirm Password"/>
+				        	</div>
+				        </div>
+				        
+				        <div class="control-group">
+				        
+				        	<div class="btn-group">
+					        	<div class="controls pull-left">
+					        		<input class="btn btn-primary btn-success" type="submit" value="Submit" /> 
+					        	</div>
+					        	
+					        	<div class="controls pull-right">
+					        		<input class="btn btn-default btn-danger" type="reset" value="Reset" />
+					        	</div>
 				        	</div>
 				        	
-				        	<div class="controls">
-				        		<input class="btn btn-danger" type="reset" value="Reset" />
-				        	</div>
 				        </div>
 				        
 			        </fieldset>

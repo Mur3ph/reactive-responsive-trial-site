@@ -1,7 +1,5 @@
 package ie.murph.sports.clinic.domain;
 
-import java.util.Date;
-
 public class Person {
 
 	private String firstName;
