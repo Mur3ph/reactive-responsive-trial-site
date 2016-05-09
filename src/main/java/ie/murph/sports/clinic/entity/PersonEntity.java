@@ -27,6 +27,8 @@ public class PersonEntity implements Serializable{
   
   private int age;
   
+  private String username;
+  
   private String email;
   
   private String password;
@@ -35,10 +37,11 @@ public class PersonEntity implements Serializable{
   
   //protected PersonEntity(){}
   
-  public PersonEntity(String firstName, String lastName, int age, String email, String password){
+  public PersonEntity(String firstName, String lastName, int age, String email, String password, String username){
     this.firstName = firstName;
     this.lastName = lastName;
     this.age = age;
+    this.username = username;
     this.email = email;
     this.password = password;
   }
@@ -75,7 +78,15 @@ public class PersonEntity implements Serializable{
     this.age = age;
   }
 
-  public String getEmail() {
+  public String getUsername() {
+	return username;
+}
+
+public void setUsername(String username) {
+	this.username = username;
+}
+
+public String getEmail() {
     return email;
   }
 

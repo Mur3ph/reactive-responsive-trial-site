@@ -46,6 +46,13 @@
 				        </div>
 				        
 				        <div class="control-group">
+				        	<label class="control-label" for="username">Username:</label>  
+				        	<div class="controls">
+				        		<input class="form-control input-lg" type="text" th:field="*{username}" placeholder="Username"/>
+				        	</div>
+				        </div>
+				        
+				        <div class="control-group">
 				        	<label class="control-label" for="email">Email:</label> 
 				        	<div class="controls">
 				        		<input class="form-control input-lg" type="text" th:field="*{email}" placeholder="Email"/>
@@ -69,6 +76,7 @@
 				        <div class="control-group">
 				        
 				        	<div class="btn-group">
+				        	
 					        	<div class="controls pull-left">
 					        		<input class="btn btn-primary btn-success" type="submit" value="Submit" /> 
 					        	</div>
@@ -76,6 +84,7 @@
 					        	<div class="controls pull-right">
 					        		<input class="btn btn-default btn-danger" type="reset" value="Reset" />
 					        	</div>
+					        	
 				        	</div>
 				        	
 				        </div>

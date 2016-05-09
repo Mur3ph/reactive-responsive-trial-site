@@ -20,6 +20,7 @@ CREATE TABLE person(
 	last_name 			VARCHAR(150) NOT NULL,
 	age					INTEGER NOT NULL,-- (CHECK age > 17),
 	--date_of_birth		DATE,
+	username			VARCHAR(150) NOT NULL UNIQUE,
 	email				VARCHAR(150) NOT NULL UNIQUE,
 	password			VARCHAR(150) NOT NULL
 );

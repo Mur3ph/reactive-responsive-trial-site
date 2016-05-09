@@ -5,9 +5,10 @@ public class Person {
 	private String firstName;
 	private String lastName;
 	private int age;
+	private String username;
 	private String email;
 	private String password;
-
+	
 	public String getFirstName() {
 		return firstName;
 	}
@@ -30,6 +31,14 @@ public class Person {
 
 	public void setAge(int age) {
 		this.age = age;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
 	}
 
 	public String getEmail() {
