@@ -1,5 +1,6 @@
 package ie.murph.sports.clinic.domain;
 
+
 public class User {
 	
 	private String username;
