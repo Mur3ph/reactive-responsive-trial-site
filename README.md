@@ -11,19 +11,14 @@
 
 ###### Technologies Used:
  <ol>
-	<li>Bootstrap</li>
-	<li>Eclipse</li>
-	<li>Embedded Tomcat Server with Spring boot</li>
-	<li>HTML/CSS</li>
-	<li>Java</li>
-	<li>JavaScript</li>
-	<li>Maven</li>
-	<li>PostgresSQL Database design, development and Schema</li>
-	<li>Spring Boot</li>
-	<li>Spring data, JPA, Hibernate (Postgres)</li>
-	<li>Spring Security</li>
-	<li>SQL</li>
-	<li>Thymeleaf</li>
+	<li>IDE: Eclipse</li>
+	<li>Frontend: Bootstrap, HTML/CSS, Thymeleaf, JavaScript</li
+	<li>Backend: Java</li>
+	<li>Framework: Spring Boot, Spring Security, Spring data, JPA, Hibernate</li>
+	<li>Operating System: Windows</li>
+	<li>Server: Embedded Tomcat Server with Spring boot</li>
+	<li>Methodologies: Maven</li>
+	<li>Databases: PostgresSQL Database design, SQL, development and Schema</li>
 </ol>
 
 ###### Technologies I intend to use (TODO): 
